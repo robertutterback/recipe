@@ -1,0 +1,78 @@
+#description {
+    text-align: justify;
+}
+
+figure {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+#ingredients {
+    clear: both;
+}
+
+article {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+article details summary {
+    cursor: pointer;
+}
+
+article details summary > * {
+    display: inline;
+}
+
+article > aside {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+article > footer {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+article > footer dl {
+    text-align: left;
+    display: inline-block;
+}
+
+dt {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    min-width: 100px;
+    text-align: right;
+}
+
+dt::after {
+    content: ": ";
+}
+
+dd {
+    display: inline;
+}
+
+dd::after {
+    content: "";
+    display: block;
+}
